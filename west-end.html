@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- The doctype is just a declaration for the browser -->
+<html lang="en">
+    <head>
+        <title>Street Art &amp; Street Art - The Creative Hub</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Tung-Yun Chang">
+        <meta name="description" content="Explore Brisbane with creative curorisity through The Creative Hub.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Linking the html with css -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Tab icon -->
+        <link rel="icon" type="image/png" href="Images/nav-background.jpg">
+    </head>
+    <body>
+        <!-- All my html content goes here -->
+        <header>
+            <!-- Skip Link -->
+            <a href="#main-content" class="skiplink">Skip to main content</a>
+            <a href="index.html" class="skiplink">Skip to home page</a>
+            <a href="about.html" class="skiplink">Skip to about page</a>
+            <a href="museum.html" class="skiplink">Skip to museum page</a>
+            
+            <!-- Logo -->
+            <h1><img src="Images/The-Creative-Hub.png" alt="Logo"></h1>
+            
+            <!-- Navigation of the website -->
+            <nav aria-label="main">
+                <ul>
+                    <li id="home"><a href="index.html">HOME</a></li>
+                    <li id="about"><a href="about.html">ABOUT</a></li>
+                    <li id="museum"><a href="museum.html">MUSEUM</a></li>
+                    <li id="streetart"><a href="streetart.html" class="activestreetart" aria-current="true">STREET ART</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main id="main-content">
+            <!-- Page Heading -->
+            <h2 id="streetartheading">Street Art</h2>
+
+            <!-- Breadcrumb -->
+            <nav class="breadcrumb">
+                <h2 class="breadcrumb-nav">You are here:</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="streetart.html">Street Art</a></li>
+                    <li aria-current="page">West-End</li>
+                </ul>
+            </nav>
+
+            <!-- Location Details: West End -->
+            <section>
+                <h3 class="streetarttitle">Pillars Project | G20 Celebrations 2014 | West End</h3>
+                <img src="Images/west-end-street-art.PNG" class="location-image" alt="West End Street Art">
+                <p class="streetartdescription">The Pillars Project was started in 2014 by eight local artists. It is known to be a highlight of street art in West End. Artists include Guido Van Helton, Gus Eagleton, John Beer (aka Gimiks Born), Simon Degroot, Fintan Magee and Mik Shida. Street art can be found <a href="https://www.google.com/maps/place/Montague+Rd+%26+Merivale+St,+South+Brisbane+QLD+4101/@-27.4715918,153.0119174,17z/data=!3m1!4b1!4m5!3m4!1s0x6b9150a80535f17b:0x6e9696cc269eafaf!8m2!3d-27.4715918!4d153.0141061">here</a> around the corner at Montague Rd & Merivale St.</p>
+            </section>
+        </main>
+
+        <!-- Page Footer -->
+        <footer>
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+        </footer>
+    </body>
+</html>

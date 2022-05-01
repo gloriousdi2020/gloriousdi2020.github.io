@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- The doctype is just a declaration for the browser -->
+<html lang="en">
+    <head>
+        <title>About &amp; About - The Creative Hub</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Tung-Yun Chang">
+        <meta name="description" content="Explore Brisbane with creative curorisity through The Creative Hub.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Linking the html with css -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Tab icon -->
+        <link rel="icon" type="image/png" href="Images/nav-background.jpg">
+    </head>
+    <body>
+        <!-- All my html content goes here -->
+        <header>
+            <!-- Skip Link -->
+            <a href="#main-content" class="skiplink">Skip to main content</a>
+            <a href="index.html" class="skiplink">Skip to home page</a>
+            <a href="museum.html" class="skiplink">Skip to museum page</a>
+            <a href="streetart.html" class="skiplink">Skip to street art page</a>
+            
+            <!-- Logo -->
+            <h1><img src="Images/The-Creative-Hub.png" alt="Logo"></h1>
+            
+            <!-- Navigation of the website -->
+            <nav aria-label="main">
+                <ul>
+                    <li id="home"><a href="index.html">HOME</a></li>
+                    <li id="about"><a href="about.html" class="activeabout" aria-current="true">ABOUT</a></li>
+                    <li id="museum"><a href="museum.html">MUSEUMS</a></li>
+                    <li id="streetart"><a href="streetart.html">STREET ART</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main id="main-content">
+            <!-- Page Heading -->
+            <h2 id="aboutheading">About</h2>
+
+            <!-- Breadcrumb -->
+            <nav class="breadcrumb">
+                <h2 class="breadcrumb-nav">You are here:</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li aria-current="page">About</li>
+                </ul>
+            </nav> 
+            
+            <!-- Logo in text version instead of image -->
+            <h2><span>The</span> <span>Creative</span> <span>Hub</span></h2>
+
+            <!-- Website description -->
+            <p class="about-description">The Creative Hub welcomes young kids like you who is creative and loves art. It is a place for you to find inspiration and be inspired by the other artists. Art is everywhere to tell a story, adds color and lives to the place. But it is often taken for granted. The Creative Hub encourage you to take a step back and take in your surroundings across Brisbane. Art galleries and street art is a great starting point to understand the culture of a place.</p>
+            
+            <!-- References -->
+            <h3 class="references">References</h3>
+            <ul id="reference-ul">
+                <li class="reference-list"><a href="https://bsafest.com.au/kaff-eine/" class="title-attribution">Kaff-eine Mural</a> by <a href="https://bsafest.com.au/">Brisbane Street Art Festival</a> is licenced under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode">CC BY-NC-ND.</a></li>
+                <li class="reference-list"><a href="https://www.queensland.com/us/en/things-to-do/attractions/p-5b875c3a36bf14d411611c9e-brisbane-sign" class="title-attribution">BRISBANE Sign</a> by <a href="https://www.queensland.com/au/en/home">Tourism Queensland</a> is licenced under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode">CC BY-NC-ND.</a></li>
+                <li class="reference-list"><a href="https://www.queensland.com/us/en/places-to-see/destinations/brisbane/where-to-find-street-art-in-brisbane" class="title-attribution">Pillars Project, West End Street Art</a> by <a href="https://www.queensland.com/au/en/home">Tourism Queensland</a> is licenced under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode">CC BY-NC-ND.</a></li>
+            </ul>
+
+            <!-- Contact Details -->
+            <section class="flex-container">
+                <section>
+                    <h3 class="about">Contact us</h3> 
+                    <p class="about-paragraph">Tung-Yun Chang | n10254790</p>
+                    <p><a href="mailto:n10254790@qut.edu.au?Subject=Enquiry" id="email">Email n10254790@qut.edu.au</a></p>
+                    <p class="about-paragraph">DXB101 Introduction to Web Design</p>
+                    <p class="about-paragraph">Tutor: Sam Hobson</p>
+                    <p class="about-paragraph">Tutorial Time: Wednesday 3pm-5pm</p>
+                </section>
+            </section>
+        </main>
+
+        <!-- Page Footer -->
+        <footer>
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+        </footer>
+    </body>
+</html>

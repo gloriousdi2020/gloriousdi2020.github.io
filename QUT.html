@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- The doctype is just a declaration for the browser -->
+<html lang="en">
+    <head>
+        <title>Museuem &amp; Museum - The Creative Hub</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Tung-Yun Chang">
+        <meta name="description" content="Explore Brisbane with creative curorisity through The Creative Hub.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Linking the html with css -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Tab icon -->
+        <link rel="icon" type="image/png" href="Images/nav-background.jpg">
+    </head>
+    <body>
+        <!-- All my html content goes here -->
+        <header>
+            <!-- Skip Link -->
+            <a href="#main-content" class="skiplink">Skip to main content</a>
+            <a href="index.html" class="skiplink">Skip to home page</a>
+            <a href="about.html" class="skiplink">Skip to about page</a>
+            <a href="streetart.html" class="skiplink">Skip to street art page</a>
+            
+            <!-- Logo -->
+            <h1><img src="Images/The-Creative-Hub.png" alt="Logo"></h1>
+            
+            <!-- Navigation of the website -->
+            <nav aria-label="main">
+                <ul>
+                    <li id="home"><a href="index.html">HOME</a></li>
+                    <li id="about"><a href="about.html">ABOUT</a></li>
+                    <li id="museum"><a href="museum.html" class="activemuseum" aria-current="true">MUSEUM</a></li>
+                    <li id="streetart"><a href="streetart.html">STREET ART</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main id="main-content">
+            <!-- Page Heading -->
+            <h2 id="museumheading">Museum</h2>
+
+            <!-- Breadcrumb -->
+            <nav class="breadcrumb">
+                <h2 class="breadcrumb-nav">You are here:</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="museum.html">Museum</a></li>
+                    <li aria-current="page">QUT</li>
+                </ul>
+            </nav> 
+            
+            <!-- Location Details: QUT Art Museum -->
+            <section>
+                <h3 class="museumtitle">QUT Art Museum</h3>
+                <img src="Images/QUTArtMuseum.jpg" class="location-image" alt="QUT Art Museum">
+                <p class="museumdescription">QUT Art Museum is known to be one of the top visual art galleries in Queensland. Art pieces are drawn from the university’s collection, art projects and exhibitions. You will have a unique experience unlike the big galleries. Find out what’s on at QUT Art Museum <a href="https://www.artmuseum.qut.edu.au/">here.</a></p>
+            </section>
+        </main>
+
+        <!-- Page Footer -->
+        <footer>
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+        </footer>
+    </body>
+</html>

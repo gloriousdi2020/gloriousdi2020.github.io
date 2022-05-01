@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Changing all fonts to Montserrat */
+  * {
+    font-family:'Montserrat', sans-serif;
+}
+
+/* Header style */
+header {
+    padding: 1em 0em 0em 0em;
+    background-image: url(Images/nav-background.jpg);
+    background-size: cover;  
+}
+
+/* Navigation */
+nav {
+    display: block;
+}
+
+nav ul {
+   text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+nav li a {
+    display: flex;
+    padding: 1em;
+    text-decoration: none;
+    font-weight: 900;
+    color: #0054f2;
+}
+
+/* Change navigation color for each tab */
+#home {
+    background-color:white;
+}
+
+#about {
+    background-color: #f279d2;
+}
+
+#museum {
+    background-color: #f2cb05;
+}
+
+#streetart {
+    background-color: #63caf2;
+}
+
+/* Navigation active view for each tab*/
+.activehome {
+    background-color:#0054f2;
+    color: white;
+}
+
+.activeabout {
+    background-color: #0054f2;
+    color: #f279d2;
+}
+
+.activemuseum {
+    background-color: #0054f2;
+    color: #f2cb05;
+}
+
+.activestreetart {
+    background-color: #0054f2;
+    color:#63caf2;
+}
+
+/* Headings Style*/
+/* h1 */
+h1 {
+    margin: 2em;
+}
+
+h1 img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+}
+
+/* h2 */
+h2 {
+    text-align: center;
+}
+
+#homeheading {
+    display: flex;
+    justify-content: center;
+    margin-top: -0.5em;
+    padding: 4em 2em 4em 2em;
+    text-align: center;
+    background: linear-gradient(#0054f2, #63caf2);
+    color:white;
+}
+
+#aboutheading {
+    display: flex;
+    justify-content: center;
+    padding: 4em 2em 4em 2em;
+    text-align: center;
+    background: #f279d2;
+    color:white;
+}
+
+#museumheading {
+    display: flex;
+    justify-content: center;
+    padding: 4em 2em 4em 2em;
+    text-align: center;
+    background:#f2cb05;
+    color:white;
+}
+
+#streetartheading {
+    display: flex;
+    justify-content: center;
+    padding: 4em 2em 4em 2em;
+    text-align: center;
+    background: #63caf2;
+    color:white;
+}
+
+h2 span {
+    font-weight: 900;
+    font-size: 160%;
+}
+
+h2 span:nth-of-type(1) {
+   color: #d90d32;
+}
+
+h2 span:nth-of-type(2) {
+    color: #f279d2;
+}
+
+h2 span:nth-of-type(3) {
+    color: #0054f2;
+}
+
+/* h3 */
+h3 {
+    margin-bottom: 2em;
+}
+
+.museumtitle {
+    padding: 0.5em;
+    margin: 1em;
+    line-height: 1.5em;
+    font-weight: 900;
+    color: #f2cb05;
+}
+
+.streetarttitle {
+    padding: 0.5em;
+    margin: 1em;
+    line-height: 1.5em;
+    font-weight: 900;
+    color: #63caf2;
+}
+
+.about {
+    display: flex;
+    align-items: flex-start;
+    margin: 1em;
+    color: white;
+}
+
+.references {
+    color: #f279d2;
+    margin: 2em 2em 0.5em 2em;
+}
+
+/* Paragraph Style */
+p {
+    line-height: 2em;
+}
+
+.museumdescription {
+    padding: 2em;
+    background-color: #f2cb05;
+    color: white;
+}
+
+.streetartdescription {
+    padding: 2em;
+    background-color: #63caf2;
+    color: white;
+}
+
+.about-paragraph {
+    display: flex;
+    align-items: flex-start;
+    margin: 2em;
+}
+
+.about-description {
+    display: flex;
+    align-items: flex-start;
+    margin: 2em;
+    padding: 2em;
+}
+
+#email {
+    display: flex;
+    align-items: flex-start;
+    margin: 2em;
+}
+
+/* List Style */
+#reference-ul {
+    margin: 4em;
+    margin-top: 2em;
+}
+
+.title-attribution {
+    font-style: italic;
+}
+
+.reference-list {
+    margin: 0em 0em 2em 2em;
+}
+
+/* Image Style */
+img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Article */
+.flex-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.articleheading {
+   font-size: 1rem;
+   text-align: center;
+   padding: 1em;
+}
+
+article a {
+   color: white;
+}
+
+article img {
+   height: 200px;
+   object-fit: cover;     
+}
+
+.museum-article {
+   color: white;
+   background-color:#f2cb05;
+   width: 300px;
+   height: 300px;
+   margin: 2em;
+   display: inline-block;
+}
+
+.streetart-article {
+   color: white;
+   background-color:#63caf2;
+   width: 300px;
+   height: 300px;
+   margin: 2em;
+   display: inline-block;
+}
+
+/* Section Style */
+.flex-container {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+section > section:nth-of-type(1) {
+    padding: 1em;
+    background-color: #f2cb05;
+    color: white;
+    flex-grow: 1;
+}
+
+section > section:nth-of-type(2) {
+    padding: 1em;
+    background-color: #0054f2;
+    color: white;
+    flex-grow: 1;
+}
+
+section > section:nth-of-type(3) {
+    padding: 1em;
+    background-color: #f279d2;
+    color: white;
+    flex-grow: 1;
+}
+
+section > section:nth-of-type(4) {
+    padding: 1em;
+    background-color: #d90d32;
+    color: white;
+    flex-grow: 1;
+}
+
+section > section:nth-of-type(2) > section:nth-of-type(1) {
+    padding: 2em;
+    background-color: #0054f2;
+    color: #fff;
+    flex-grow: 1;
+}
+
+section > section:nth-of-type(3) > section:nth-of-type(1) {
+    padding: 2em;
+    background-color: #f279d2;
+    color: #fff;
+    flex-grow: 1;
+}
+  
+section > section:nth-of-type(4) > section:nth-of-type(1) {
+    padding: 2em;
+    background-color: #d90d32;
+    color: #fff;
+    flex-grow: 1;
+}
+
+/* Section Image */
+section img {
+    min-width: 35%;
+    height: auto;
+    object-fit: cover;
+    object-position: center; 
+    flex-grow: 1;
+    margin: 1em;
+}
+
+.location-image {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    margin-bottom: -0.5em;
+}
+
+/* Footer Style */
+footer {
+    font-size: 10px;
+    background: linear-gradient(#0054f2, #63caf2);
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Footer image */
+footer img {
+    width: 15%;
+    height: auto;
+}
+
+/* Skip Link */
+.skiplink {
+    position: absolute;   
+    left: -1000px;
+    color: white;
+}
+
+.skiplink:focus {
+    position: initial;
+    left: 0;
+    color:white;
+}
+
+/* Breadcrumb */
+.breadcrumb, .breadcrumb ul {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb {
+    padding: 2em;
+    justify-content: flex-start;
+}
+
+.breadcrumb ul {
+    display: inline-block;
+    margin: 0%;
+    padding: 0.75em;
+}
+
+.breadcrumb li {
+    display: inline-block;
+}
+
+.breadcrumb li:not([aria-current])::after {
+    content: "⟶";
+    content: "⟶"/ "";
+    margin: 0 0.25em;
+}
+
+.breadcrumb li a {
+    font-weight: 400;
+    color: black;
+    display: inline-block;
+    padding: 0%;
+    text-decoration: underline;
+}
+
+/* Responsive mobile view */
+@media (min-width: 375px) {
+    /* Navigation */
+    nav li {
+        display: block;
+    }
+
+    /* Heading Style */
+    h2 {
+        font-size: 18px;
+    }
+
+    .about-description {
+        padding: 0%;
+    }
+
+    .reference-list {
+    
+        margin-left: 0%;
+    }
+
+    /* Pargargraph style */
+    .about-paragraph {
+        margin-left: 1.2em;
+    }
+
+    #email {
+        margin-left: 1.2em;
+    }
+
+    /* Breadcrumb */
+    .breadcrumb-nav, .breadcrumb ul {
+        font-size: 0.6rem;
+    }
+}
+
+/* Responsive tablet view */
+@media (min-width: 768px) {
+    /* Navigation style */
+    nav {
+        display: flex;
+        display: block;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    /* Heading Style */
+    h2 {
+        font-size: 35px;
+    }
+
+    /* Section */
+    .flex-container {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    /* Breadcrumb */
+    .breadcrumb-nav, .breadcrumb ul {
+        font-size: 1.2rem;
+    }
+}
+
+/* Responsive desktop view */
+@media (min-width: 1440px) {
+    /* Navigation */
+    nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav ul {
+        display: inline-block;
+        justify-content: flex-end; 
+        margin-right: 2em;
+    }
+
+    /* Heading Style */
+    h1 img {
+        width: 500px;
+        height: auto;
+        margin: 0%;
+    }
+
+    h2 {
+        font-size: 72px;
+    }
+
+    h3 {
+        font-size: 40px;
+        margin-bottom: 1em;
+    }
+
+    /* Paragraph Style */
+    p {
+        font-size: 20px;
+    }
+
+    /* Article Style */
+    .museum-article {
+        color: white;
+        background-color:#f2cb05;
+        width: 600px;
+        height: 600px;
+        margin: 2em;
+        display: inline-block;
+    }
+
+    .streetart-article {
+        color: white;
+        background-color:#63caf2;
+        width: 600px;
+        height: 600px;
+        margin: 2em;
+        display: inline-block;
+    }
+
+    .articleheading {
+        font-size: 2rem;
+        text-align: center;
+        padding: 1em;
+    }
+
+    article img {
+        height: 400px;
+        object-fit: cover;
+    }
+
+    /* Section Style */
+    section img {
+        width: 50%;
+        height: auto;
+    }
+}
